@@ -41,7 +41,12 @@ Interesting approaches:
 
 # Takeaways
 
-* None yet.
+* Day 03 (Gear Ratios):
+  Actually the first day in recent memory where my language knowledge was insufficient.
+  I didn't know you could do a regex search that also tracked all matching indices.
+  I thus tried to implement it myself
+  (remembering to handle a number occurring twice in a line),
+  but got it wrong in cases where a line contains both a number and a substring of that same number (81...8).
 
 # Posting schedule and policy
 
