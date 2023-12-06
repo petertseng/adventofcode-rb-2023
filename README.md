@@ -47,6 +47,11 @@ Interesting approaches:
   I thus tried to implement it myself
   (remembering to handle a number occurring twice in a line),
   but got it wrong in cases where a line contains both a number and a substring of that same number (81...8).
+* Day 06 (Wait For It):
+  I selected times between 0..7 instead of 0..t for some reason
+  (because that was the time range of the example's first race)
+  so I wasn't even getting the right answer on the full example.
+  Very careless.
 
 # Posting schedule and policy
 
