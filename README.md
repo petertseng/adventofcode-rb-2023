@@ -52,6 +52,15 @@ Interesting approaches:
   (because that was the time range of the example's first race)
   so I wasn't even getting the right answer on the full example.
   Very careless.
+* Day 07 (Camel Cards):
+  May have saved some time by copying a poker ranking I'd previously written,
+  but then needed to tear out the full poker ranking
+  (based on the ranks of the cards involved in making the hand its type).
+  Still placed on part 1, so I guess it went okay.
+  Wasted a lot of time on incorrect strategies for the jokers that were difficult to reason about,
+  before coming up with one that was much simpler and obviously correct:
+  Just case-by-case based on 5, 4, 3, 2, or 1 jokers.
+  May be good to look for other simple and obviously correct solutions like that.
 
 # Posting schedule and policy
 
