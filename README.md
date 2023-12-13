@@ -61,6 +61,10 @@ Interesting approaches:
   before coming up with one that was much simpler and obviously correct:
   Just case-by-case based on 5, 4, 3, 2, or 1 jokers.
   May be good to look for other simple and obviously correct solutions like that.
+* Day 13 (Point of Incidence):
+  Lost time on not removing newlines
+  (I forgot to do it because the split was on \n\n this day instead of the more usual \n),
+  and therefore some reflections were missed because \n is not equal to . or #.
 
 # Posting schedule and policy
 
