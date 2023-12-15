@@ -65,6 +65,9 @@ Interesting approaches:
   Lost time on not removing newlines
   (I forgot to do it because the split was on \n\n this day instead of the more usual \n),
   and therefore some reflections were missed because \n is not equal to . or #.
+* Day 15 (Lens Library):
+  Lost a minute again on not removing the newline (since today's was a single line).
+  Would have placed on both parts were it not for that.
 
 # Posting schedule and policy
 
