@@ -68,6 +68,10 @@ Interesting approaches:
 * Day 15 (Lens Library):
   Lost a minute again on not removing the newline (since today's was a single line).
   Would have placed on both parts were it not for that.
+* Day 16 (The Floor Will Be Lava):
+  Some bug whose exact nature I don't remember,
+  but that I failed to debug before printing out the visualisation of what cells were energised.
+  Useful tool.
 
 # Posting schedule and policy
 
