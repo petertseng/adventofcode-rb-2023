@@ -72,6 +72,14 @@ Interesting approaches:
   Some bug whose exact nature I don't remember,
   but that I failed to debug before printing out the visualisation of what cells were energised.
   Useful tool.
+* Day 17 (Clumsy Crucible):
+  I initially was worried that having to add direction and tiles traveled straight to state would mean the graph search would take too long.
+  Thus I spent a few minutes deciding whether there was some viable dynamic programming solution instead.
+  Failing to find one, only then did I decide to just implement the graph search and see how it went.
+  I guess as long as it prunes previously-visited states, it's fine.
+  Surprisingly still fast enough to place for part 2.
+  (Note that I since improved my solution to only store one extra boolean in the state,
+  but this discussion is about my day-of impressions)
 
 # Posting schedule and policy
 
