@@ -80,6 +80,13 @@ Interesting approaches:
   Surprisingly still fast enough to place for part 2.
   (Note that I since improved my solution to only store one extra boolean in the state,
   but this discussion is about my day-of impressions)
+* Day 18 (Lavaduct Lagoon):
+  Actually, I forgot what I learned in day 10 for how to count points within polygon,
+  since I forgot you only count vertical edges crossed and not horizontal.
+  I needed to learn a new approach (shoelace formula) for part 2 anyway though.
+  I'm surprised to see that this is applicable for any polygons, so this could be useful in the future.
+  Alternative formulations for the same are the trapezoid formula and the triangle formula,
+  all described at https://en.wikipedia.org/wiki/Shoelace_formula
 
 # Posting schedule and policy
 
