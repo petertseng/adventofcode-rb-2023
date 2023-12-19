@@ -87,6 +87,9 @@ Interesting approaches:
   I'm surprised to see that this is applicable for any polygons, so this could be useful in the future.
   Alternative formulations for the same are the trapezoid formula and the triangle formula,
   all described at https://en.wikipedia.org/wiki/Shoelace_formula
+* Day 19 (Aplenty):
+  Unfortunate part 2 bug where I was carrying over the original range instead of the non-matching range to the next rule.
+  Found the bug rather quickly when I started printing out the part intervals being considered at each step.
 
 # Posting schedule and policy
 
