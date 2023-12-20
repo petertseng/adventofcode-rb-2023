@@ -90,6 +90,13 @@ Interesting approaches:
 * Day 19 (Aplenty):
   Unfortunate part 2 bug where I was carrying over the original range instead of the non-matching range to the next rule.
   Found the bug rather quickly when I started printing out the part intervals being considered at each step.
+* Day 20 (Pulse Propagation):
+  I believe I quickly understood the necessary task for part 2
+  (look at what sends to rx, look at what sends to *that*, and look at when those go high).
+  However, I had an unfortunate off-by-one
+  (I was storing zero-indexed times instead of one-indexed number of button presses),
+  so my first attempt was off by one and I didn't realize it for a number of minutes.
+  Nevertheless I was still fast enough to place.
 
 # Posting schedule and policy
 
