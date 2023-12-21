@@ -97,6 +97,18 @@ Interesting approaches:
   (I was storing zero-indexed times instead of one-indexed number of button presses),
   so my first attempt was off by one and I didn't realize it for a number of minutes.
   Nevertheless I was still fast enough to place.
+* Day 21 (Step Counter):
+  Lost a bit of time on part 1 by thinking the elf can only step on `#` instead of `.`.
+  That's just misreading on my part and I should have known it was out of character for Advent of Code,
+  since traditionally `#` has always been inaccessible.
+  I needed to go through a lot of failed part 2 approaches before I found the right one.
+  I thought about counting the number of times a position is reached across all parallel universes,
+  but a count is insufficient because you need to deduplicate points reached multiple times.
+  I tried keeping the full list of parallel universes that have visited each position,
+  but the lists grew too large to handle.
+  Only after these two failed attempts did I give up and look for patterns every grid length steps.
+  I lost a little more time by using an incorrectly-optimised algorithm that got step counts wrong.
+  I reverted to the known-correct naive algorithm to actually get correct counts for 65, 196, and 327.
 
 # Posting schedule and policy
 
