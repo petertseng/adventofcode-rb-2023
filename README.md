@@ -109,6 +109,15 @@ Interesting approaches:
   Only after these two failed attempts did I give up and look for patterns every grid length steps.
   I lost a little more time by using an incorrectly-optimised algorithm that got step counts wrong.
   I reverted to the known-correct naive algorithm to actually get correct counts for 65, 196, and 327.
+* Day 22 (Sand Slabs):
+  I picked a very slow O(N^2) falling algorithm
+  (every brick checks all other bricks to see whether any intersect it),
+  which meant my falling computation took almost a minute and a half to complete.
+  The slow feedback cycle slowed down iteration.
+  May be good to look for ways to make faster (sorting by z).
+  However it'd also be necessary to make sure that optimisations are valid.
+  In this case, it is because all bricks are cuboids,
+  rather than some C shapes that could cause a sort by z to be incorrect.
 
 # Posting schedule and policy
 
