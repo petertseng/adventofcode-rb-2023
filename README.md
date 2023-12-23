@@ -118,6 +118,10 @@ Interesting approaches:
   However it'd also be necessary to make sure that optimisations are valid.
   In this case, it is because all bricks are cuboids,
   rather than some C shapes that could cause a sort by z to be incorrect.
+* Day 23 (A Long Walk):
+  Just slow to realise that longest path is found by enumerating all paths and choosing the longest one.
+  I also see that some compiled languages were able to complete part 2 without the graph compression optimisation
+  (though it was reported to take 5+ minutes in that case still).
 
 # Posting schedule and policy
 
