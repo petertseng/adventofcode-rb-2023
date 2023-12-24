@@ -122,6 +122,15 @@ Interesting approaches:
   Just slow to realise that longest path is found by enumerating all paths and choosing the longest one.
   I also see that some compiled languages were able to complete part 2 without the graph compression optimisation
   (though it was reported to take 5+ minutes in that case still).
+* Day 24 (Never Tell Me the Odds):
+  Wasted a lot of time in part 1 trying to compute a time where the two hailstones would be at the same position,
+  whereas part 1 does not require the hailstones to reach the common position at the same time.
+  Finally got the answer after converting the two to slope and intercept form which is something I know how to work with.
+  https://en.wikipedia.org/wiki/Line%E2%80%93line_intersection could have some usable ideas with the position/velocity form given,
+  but I think I'm not confident enough with those.
+  I used Z3 for the first time ever to solve part 2 day-of.
+  It's an interesting tool and I'm happy to have it in my tool belt.
+  I did go back and implement a solution using cross proucts though.
 
 # Posting schedule and policy
 
