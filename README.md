@@ -131,6 +131,19 @@ Interesting approaches:
   I used Z3 for the first time ever to solve part 2 day-of.
   It's an interesting tool and I'm happy to have it in my tool belt.
   I did go back and implement a solution using cross proucts though.
+* Day 25 (Snowverload):
+  After noting that testing every combination of edges will be too slow
+  (3000+ edges and 3000 choose 3 is about 4.5 billion),
+  I just turned to visualisation.
+  I printed out the graph in Graphviz format,
+  determined the cut edges by visual inspection
+  (for this, the `neato` layout was much more useful than `dot`),
+  hard-coded those cut edges,
+  then let the code count the resulting components.
+  There are a lot of times where visualisation is a good aid to debugging,
+  though this is a rare occurrence where visualisation directly aided the solution.
+  This usually doesn't get to be the case since the input is too big to count things manually,
+  but in this case only three edges were needed.
 
 # Posting schedule and policy
 
